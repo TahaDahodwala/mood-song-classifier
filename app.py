@@ -2,6 +2,7 @@ import pickle
 import streamlit as st
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import euclidean_distances
 import random
@@ -189,4 +190,5 @@ if user_mood:
             """,
             height=100
         )
+
 
